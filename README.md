@@ -26,3 +26,11 @@ You can run the GANCL from the command line:
 
 $ python main.py --dataset adam --epochs 200
 
+Arguments
+-----
+
+|    Parameter    | Introduction                                                 |
+| :-------------: | ------------------------------------------------------------ |
+|    dataset     | A h5 file. Contains a matrix of scRNA-seq expression values,true labels, and other information. |
+|    highly genes     |Number of genes selected. |
+|     epochs     | Number of training epochs                                    |
