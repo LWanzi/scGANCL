@@ -1,5 +1,9 @@
 # GANCL: a self-supervised contrastive learning imputation method for scRNA-seq data with generative adversarial network
 
+-----
+
+![model](https://github.com/LWanzi/GANCL/blob/origin/GANCL.png)
+
 Introduction
 -----
 
@@ -23,6 +27,3 @@ You can run the GANCL from the command line:
 
 $ python main.py --dataset adam --epochs 200
 
-Model
------
-![model](https://github.com/LWanzi/GANCL/blob/origin/GANCL.png)
