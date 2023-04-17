@@ -31,6 +31,6 @@ Arguments
 
 |    Parameter    | Introduction                                                 |
 | :-------------: | ------------------------------------------------------------ |
-|    dataset     | A h5 file. Contains a matrix of scRNA-seq expression values,true labels, and other information. By default, genes are assumed to be represent-ed by rows and samples are assumed to be represented by columns.|
+|    dataset     | A h5 file. Contains a matrix of scRNA-seq expression values,true labels, and other information. By default, genes are assumed to be represented by rows and samples are assumed to be represented by columns.|
 |    task     |clustering. |
 |     epochs     | Number of training epochs                                    |
