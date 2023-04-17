@@ -21,6 +21,6 @@ You can run the GANCL from the command line:
 
 $ python main.py --dataset adam --epochs 300
 
-Method
+Model
 -----
 ![model](https://github.com/LWanzi/GANCL/blob/origin/GANCL.png)
