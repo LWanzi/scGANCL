@@ -7,19 +7,17 @@ we propose a novel self-supervised deep learning model called GANCL for scRNA-se
 
 Requirement
 -----
-Python >= 3.6
-
-Tensorflow (GPU version) >= 1.13.1
-
-scanpy >= 1.14.post1
-
-umap-learn == 0.3.9
+Python == 3.6.13
+Pytorch==1.10.0
+h5py==3.1.0
+scanpy==1.7.2
+umap-learn == 0.5.3
 
 Usage
 -----
 You can run the GANCL from the command line:
 
-$ python main.py --dataset adam --epochs 300
+$ python main.py --dataset adam --epochs 200
 
 Model
 -----
