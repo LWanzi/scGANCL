@@ -1,6 +1,5 @@
 # GANCL: a self-supervised contrastive learning imputation method for scRNA-seq data with generative adversarial network
 
------
 
 ![model](https://github.com/LWanzi/GANCL/blob/origin/GANCL.png)
 
