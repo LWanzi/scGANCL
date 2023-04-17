@@ -22,4 +22,4 @@ $ python main.py --dataset adam --epochs 300
 
 Method
 -----
-![model](https://github.com/rafa-nadal/scSemiGAN/blob/main/result/method_color1.png)
+![model](https://github.com/LWanzi/GANCL/blob/origin/GANCL.png)
