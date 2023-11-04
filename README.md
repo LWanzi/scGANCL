@@ -1,7 +1,7 @@
 # scGANCL: bidirectional generative adversarial network for imputing scRNA-seq data with contrastive learning
 
 
-![model](https://github.com/LWanzi/GANCL/blob/origin/GANCL.png)
+![model](https://github.com/LWanzi/GANCL/blob/origin/scGANCL.png)
 
 Introduction
 -----
