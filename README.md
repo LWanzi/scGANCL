@@ -1,4 +1,4 @@
-# GANCL: a self-supervised contrastive learning imputation method for scRNA-seq data with generative adversarial network
+# scGANCL: bidirectional generative adversarial network for imputing scRNA-seq data with contrastive learning
 
 
 ![model](https://github.com/LWanzi/GANCL/blob/origin/GANCL.png)
@@ -6,7 +6,7 @@
 Introduction
 -----
 
-We propose a novel self-supervised deep learning model called GANCL for scRNA-seq data imputation. GANCL combines generative adversarial network (GAN) with contrastive learning (CL) to improve imputation performance. GANCL learns discriminative representation by distinguishing real samples from generated samples and utilizes the zero-inflated negative binomial (ZINB) distribution to model the original probability distribution of scRNA-seq data within the GAN framework. We evaluate GANCL on various downstream analysis tasks, including gene expression recovery, clustering, trajectory inference, and differentially expressed genes (DEGs) analysis. The results showed that GANCL outperformed four state-of-the-art methods consistently. Besides, ablation studies demonstrated the contributions of each component of GANCL to the overall performance.
+We propose a novel self-supervised deep learning model called scGANCL for scRNA-seq data imputation. scGANCL combines generative adversarial network (GAN) with contrastive learning (CL) to improve imputation performance. scGANCL learns discriminative representation by distinguishing real samples from generated samples and utilizes the zero-inflated negative binomial (ZINB) distribution to model the original probability distribution of scRNA-seq data within the GAN framework. We evaluate scGANCL on various downstream analysis tasks, including gene expression recovery, clustering, trajectory inference, and differentially expressed genes (DEGs) analysis. The results showed that scGANCL outperformed four state-of-the-art methods consistently. Besides, ablation studies demonstrated the contributions of each component of scGANCL to the overall performance.
 
 Requirement
 -----
@@ -22,7 +22,7 @@ umap-learn == 0.5.3
 
 Usage
 -----
-You can run the GANCL from the command line:
+You can run the scGANCL from the command line:
 
 $ python main.py --dataset adam --epochs 200
 
